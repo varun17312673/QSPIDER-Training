@@ -5,7 +5,7 @@ class arithmetic
 	{
 		Scanner sc=new Scanner(System.in);
 		{
-			System.out.print("Enter number1:");
+			System.out.print("Enter number 1:");
 			byte n1=sc.nextByte();
 			System.out.print("Enter number2:");
 			byte n2=sc.nextByte();
