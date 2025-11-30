@@ -1,5 +1,5 @@
 import java.util.*;
-class arithmetic
+class multiplication
 {
 	public static void main(String[]args)
 	{
@@ -9,8 +9,8 @@ class arithmetic
 			byte n1=sc.nextByte();
 			System.out.print("Enter number2:");
 			byte n2=sc.nextByte();
-			int ans=n1+n2;
-			System.out.println("Addition Byte:"+ans);
+			int ans=n1*n2;
+			System.out.println("multiplication Byte:"+ans);
 			
 		}
 		{
@@ -18,8 +18,8 @@ class arithmetic
 			int n1=sc.nextInt();
 			System.out.print("Enter number2:");
 			int n2=sc.nextInt();
-			int ans=n1+n2;
-			System.out.println("Addition Int:"+ans);
+			int ans=n1*n2;
+			System.out.println("multiplication Int:"+ans);
 			
 		}
 		{
@@ -28,8 +28,8 @@ class arithmetic
 			short n1=sc.nextShort();
 			System.out.print("Enter number2:");
 			short n2=sc.nextShort();
-			int ans=n1+n2;
-			System.out.println("Addition Short:"+ans);
+			int ans=n1*n2;
+			System.out.println("multiplication Short:"+ans);
 			
 		}
 		{
@@ -37,8 +37,8 @@ class arithmetic
 			long n1=sc.nextLong();
 			System.out.print("Enter number2:");
 			long n2=sc.nextLong();
-			long ans=n1+n2;
-			System.out.println("Addition Long:"+ans);
+			long ans=n1*n2;
+			System.out.println("multiplication Long:"+ans);
 			
 				
 		}
@@ -47,8 +47,8 @@ class arithmetic
 			float n1=sc.nextFloat();
 			System.out.print("Enter number2:");
 			float n2=sc.nextFloat();
-			float ans=n1+n2;
-			System.out.println("Addition Float:"+ans);
+			float ans=n1*n2;
+			System.out.println("multiplication Float:"+ans);
 			
 		}
 		{
@@ -56,8 +56,8 @@ class arithmetic
 			double n1=sc.nextDouble();
 			System.out.print("Enter number2:");
 			double n2=sc.nextDouble();
-			double ans=n1+n2;
-			System.out.println("Addition Double:"+ans);
+			double ans=n1*n2;
+			System.out.println("multiplication Double:"+ans);
 			
 		}
 		{
@@ -66,8 +66,8 @@ class arithmetic
 			sc.nextLine();
 			System.out.print("Enter char2:");
 			char n2=sc.next().charAt(0);
-			int ans=n1+n2;
-			System.out.println("Addition Char:"+ans);
+			int ans=n1*n2;
+			System.out.println("multiplication Char:"+ans);
 		}
 	}
 }
